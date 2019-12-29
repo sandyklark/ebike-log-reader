@@ -1,0 +1,17 @@
+{
+  "name": "ebike-log-reader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Bill Spooner",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "generate": "node ./index.js"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "geolib": "^3.2.0",
+    "neat-csv": "^5.1.0",
+    "staticmaps": "^1.2.4"
+  }
+}
